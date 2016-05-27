@@ -11,6 +11,7 @@
 package com.mathildekerhom.pokemon;
 
 import com.mathildekerhom.pokemon.harmony.view.HarmonyFragmentActivity;
+import com.mathildekerhom.pokemon.view.typepokemon.TypePokemonListActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -42,12 +43,19 @@ public class HomeActivity extends HarmonyFragmentActivity
      * Initialize the buttons click listeners.
      */
     private void initButtons() {
+        this.findViewById(R.id.typepokemon_list_button)
+                        .setOnClickListener(this);
     }
     
     @Override
     public void onClick(View v) {
         Intent intent;
         switch (v.getId()) {
+            case R.id.typepokemon_list_button:
+                intent = new Intent(this,
+                        TypePokemonListActivity.class);
+                break;
+
             default:
                 intent = null;
                 break;

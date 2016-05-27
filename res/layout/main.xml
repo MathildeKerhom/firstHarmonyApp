@@ -98,7 +98,12 @@
                 android:layout_height="wrap_content"
                 android:autoLink="web"
                 android:text="More documentation at https://support.tactfactory.com/projects/harmony/wiki" />
-                    </LinearLayout>
+                        <Button
+                android:id="@+id/typepokemon_list_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="List all TypePokemon" />
+        </LinearLayout>
     </ScrollView>
 </LinearLayout>
 

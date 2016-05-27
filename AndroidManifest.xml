@@ -22,5 +22,51 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".view.typepokemon.TypePokemonCreateActivity"
+            android:label="@string/app_name"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="INSERT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/com.mathildekerhom.pokemon.TypePokemon" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.typepokemon.TypePokemonEditActivity"
+            android:label="@string/app_name"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="EDIT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/com.mathildekerhom.pokemon.TypePokemon" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.typepokemon.TypePokemonShowActivity"
+            android:label="@string/app_name"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/com.mathildekerhom.pokemon.TypePokemon" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.typepokemon.TypePokemonListActivity"
+            android:label="@string/app_name"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.collection/com.mathildekerhom.pokemon.TypePokemon" />
+            </intent-filter>
+        </activity>
+        <provider
+            android:name="com.mathildekerhom.pokemon.provider.PokemonProvider"
+            android:authorities="com.mathildekerhom.pokemon.provider"
+            android:label="@string/app_provider_name"
+            android:description="@string/app_provider_description"
+            android:exported="false" />
     </application>
 </manifest>

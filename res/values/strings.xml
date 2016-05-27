@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
-
+    <string name="app_provider_description">Provider of pokemon to access data</string>
+    <string name="app_provider_name">Provider of pokemon</string>
+    <string name="common_create">Create</string>
+    <string name="common_delete">Del</string>
+    <string name="common_edit">Edit</string>
+    <string name="dialog_delete_message">Are you sure you want to delete this item ?</string>
+    <string name="dialog_delete_title">Delete</string>
+    <string name="menu_item_create">Add</string>
+    <string name="menu_item_delete">Delete</string>
+    <string name="menu_item_edit">Edit</string>
+    <string name="menu_item_save">Save</string>
+    <string name="typepokemon_attaque_invalid_field_error">Field Attaque is invalid.</string>
+    <string name="typepokemon_attaque_label">Attaque</string>
+    <string name="typepokemon_attaque_spe_invalid_field_error">Field Attaque_spe is invalid.</string>
+    <string name="typepokemon_attaque_spe_label">Attaque_spe</string>
+    <string name="typepokemon_defense_invalid_field_error">Field Defense is invalid.</string>
+    <string name="typepokemon_defense_label">Defense</string>
+    <string name="typepokemon_defense_spe_invalid_field_error">Field Defense_spe is invalid.</string>
+    <string name="typepokemon_defense_spe_label">Defense_spe</string>
+    <string name="typepokemon_empty_list">TypePokemon list is empty !</string>
+    <string name="typepokemon_error_create">TypePokemon creation error…</string>
+    <string name="typepokemon_error_edit">TypePokemon edition error…</string>
+    <string name="typepokemon_name_invalid_field_error">Field Name is invalid.</string>
+    <string name="typepokemon_name_label">Name</string>
+    <string name="typepokemon_not_found">No TypePokemon found to display…</string>
+    <string name="typepokemon_progress_load_message">TypePokemon is loading…</string>
+    <string name="typepokemon_progress_load_title">TypePokemon Loading progress</string>
+    <string name="typepokemon_progress_save_message">TypePokemon is saving to database…</string>
+    <string name="typepokemon_progress_save_title">TypePokemon save progress</string>
+    <string name="typepokemon_pv_invalid_field_error">Field Pv is invalid.</string>
+    <string name="typepokemon_pv_label">Pv</string>
+    <string name="typepokemon_vitesse_invalid_field_error">Field Vitesse is invalid.</string>
+    <string name="typepokemon_vitesse_label">Vitesse</string>
+    <string name="uri_not_supported">URI not supported</string>
 </resources>
